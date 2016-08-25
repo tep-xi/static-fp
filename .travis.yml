@@ -1,0 +1,24 @@
+language: go
+
+go:
+ - "1.7"
+env:
+ global:
+  -SSH_KEY="travis_key"
+  -GIT_NAME="tEp"
+  -GIT_EMAIL="tepz@mit.edu"
+  -SOURCE_DIR="public"
+  -DEPLOY_BRANCH="master"
+  
+before_install:
+ - openssl aes-256-cbc -K $encrypted_3c95cbedf40a_key -iv $encrypted_3c95cbedf40a_iv -in travis_key.enc -out travis_key -d
+
+before_script:
+ - go get -u github.com/spf13/hugo
+
+script:
+ - git clone https://github.com/digitalcraftsman/hugo-icarus-theme.git ./themes/hugo-icarus-theme
+ - hugo
+
+after_success:
+ - ./scripts/deploy.sh
