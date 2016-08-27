@@ -17,7 +17,7 @@ before_script:
  - go get -u github.com/spf13/hugo
 
 script:
- - git clone https://github.com/digitalcraftsman/hugo-icarus-theme.git ./themes/hugo-icarus-theme
+ - git clone https://github.com/ggilmore/hugo-base16-theme ./themes/base16
  - hugo
 
 after_success:
