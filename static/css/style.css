@@ -241,11 +241,6 @@ footer a {
   color: #ffcc66;
 }
 
-.article-list h2.list-key {
-  font-size: 2.5em;
-  color: #f2777a;
-}
-
 .article-list article {
   padding-top: 64px;
   padding-top: 4rem;
@@ -276,6 +271,42 @@ footer a {
 }
 
 .article-list article section.summary a { color: #d27b53; }
+
+/* Rush Event List Specific Layouts*/
+
+.article-list .rush-event {
+  padding-top: 32px;
+  padding-top: 2rem;
+  padding-bottom: 32px;
+  padding-bottom: 2rem;
+  padding-left: 32px;
+  padding-left: 2rem;
+  padding-right: 32px;
+  padding-right: 2rem;
+  margin-bottom: 32px;
+  margin-bottom: 2rem;
+}
+
+.article-list h2.list-key {
+  font-size: 2.5em;
+  color: #f2777a;
+}
+
+.rush-event-location {
+  color: #99cc99;
+}
+
+.article-list .rush-event-title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
 /* Single Post Layout */
 

@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+<main role="main" class="article-list">
+  <h1 class="list-title">Rush Events</h1>
+  {{ range .Data.Pages.GroupByDate "Monday, January 2" "asc"}}
+    <h2 class="list-key">{{ .Key }}</h2>
+    {{ range .Pages }}
+      {{ partial "rush-event.html" . }}
+    {{ end }}
+  {{ end }}
+</main>
+{{ partial "footer.html" . }}
