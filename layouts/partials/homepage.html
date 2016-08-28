@@ -1,0 +1,15 @@
+{{ $baseurl := .Site.BaseURL }}
+<main role="main" class="homepage">
+
+  {{ partial "hero.html" . }}
+
+  <h1 class="headline">Welcome.</h1>
+
+  <div class="article">
+    <!--Hugo has no "findByName" function, so this is just a workaround.-->
+    {{ range first 1 (where .Site.Pages ".Params.ishomepage" true) }}
+      {{ partial "article.html" . }}
+    {{ end }}
+  </div>
+
+</main>
