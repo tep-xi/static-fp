@@ -2,3 +2,17 @@ baseurl = "https://github.mit.edu/pages/tep/static-fp/"
 languageCode = "en-us"
 title = "tEp"
 theme = "base16"
+
+# home page
+[[menu.main]]
+    name="tEp"
+    url=""
+    weight=-100 #ensure this is the left-most link
+
+[[menu.main]]
+    name="rush"
+    url="rush/"
+
+[[menu.main]]
+    name="the gospel"
+    url="the-gospel/"

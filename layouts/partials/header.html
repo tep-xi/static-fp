@@ -16,15 +16,11 @@
 
 <header>
   <div class="container clearfix">
-    <a class="path" href="{{ .Site.BaseURL }}">[{{ .Site.Title }}]</a>
-    <!--automatically populate the navbar with all the content sections-->
-    {{ range $name, $_ := .Site.Sections }}
-      {{ if not (eq $name "home") }}
+    {{ range .Site.Menus.main }}
+        <a class="path" href="{{ .URL | relURL }}">[{{ .Name }}]</a>
         <span class="caret">#</span>
-        <a class="path" href="{{ $name | relURL }}">[{{ $name }}]</a>
-      {{ end }}
     {{ end }}
-    <span class="caret"># _</span>
+    <span class="caret"> _</span>
     <div class="right">
       {{ range $i, $page := (where .Site.Pages "Section" "pages") }}
         {{ if not (eq $i 0) }}|{{ end }}
