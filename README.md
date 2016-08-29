@@ -5,9 +5,16 @@ ease-of-customization of the tEp home page, we're transitioning the
 site to be statically generated (using [Hugo](https://gohugo.io)) and
 hosted on Github Pages. 
 
-[Travis CI](travis.mit.edu) tracks `master` and handles site deploys. 
+[Travis CI](https://travis.mit.edu) tracks `master` and handles site deploys. 
 
 Please submit PR's to make changes (**don't**  commit directly to
 `master`). 
+
+## Dev Instructions
+
+### Requirements
+
+- [Hugo](https://gohugo.io/overview/installing/) (`v.16` at this time of writing)
+
 
 
