@@ -277,6 +277,12 @@ footer a {
 
 /* Rush Event List Specific Layouts*/
 
+.article-list .rush-title-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .article-list .rush-event {
   padding-top: 2rem;
   padding-bottom: 2rem;
