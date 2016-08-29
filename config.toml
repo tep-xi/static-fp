@@ -18,6 +18,10 @@ theme = "base16"
     url="the-gospel/"
 
 [[menu.main]]
+    name="tour"
+    url="tour/"
+
+[[menu.main]]
     name="contact"
     url="contact/"
     weight=100 # ensure this is the right-most link
