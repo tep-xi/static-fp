@@ -7,7 +7,7 @@ theme = "base16"
 [[menu.main]]
     name="tEp"
     url=""
-    weight=-100 #ensure this is the left-most link
+    weight=-100 # ensure this is the left-most link
 
 [[menu.main]]
     name="rush"
@@ -16,3 +16,8 @@ theme = "base16"
 [[menu.main]]
     name="the gospel"
     url="the-gospel/"
+
+[[menu.main]]
+    name="contact"
+    url="contact/"
+    weight=100 # ensure this is the right-most link
