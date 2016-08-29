@@ -103,6 +103,23 @@ footer {
   color: #747369;
 }
 
+footer .container{
+  max-width: none;
+  padding-left: 16px;
+  padding-left: 1rem;
+  padding-right: 16px;
+  padding-right: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 @media (max-width: 52em) {
   footer {
     margin-top: 0;
@@ -273,6 +290,23 @@ footer a {
 .article-list article section.summary a { color: #d27b53; }
 
 /* Rush Event List Specific Layouts*/
+
+/* shamelessly stolen from: http://stackoverflow.com/a/12678294 */
+.iframe-wrp  {
+  position: relative;
+  padding-bottom: 65.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.iframe-wrp iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .article-list .rush-title-container{
   display: -webkit-box;

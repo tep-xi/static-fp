@@ -22,6 +22,6 @@ theme = "base16"
     url="tour/"
 
 [[menu.main]]
-    name="contact"
+    name="contact/social"
     url="contact/"
     weight=100 # ensure this is the right-most link
