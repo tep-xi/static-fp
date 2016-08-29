@@ -1,0 +1,13 @@
+{{ $dateMissing := eq .Date.Year 1}}
+</div>
+
+<footer>
+  <div class="container">
+    <address>617.262.5090</address>
+    <address><a style="text-decoration: underline" target="_blank" href="https://www.google.com/maps/place/253+Commonwealth+Avenue,+Boston,+MA+02116/@42.350918,-71.083522,17z/data=!4m2!3m1!1s0x89e37a0f3c3d6b9d:0xfb5e9f810e870fdd">253 Commonwealth Avenue Boston, MA 02116</a></address>
+    <span class="copyright">&copy; {{ if eq $dateMissing true }}{{ .Site.LastChange.Format "2006" }}{{ else }}{{ .Date.Format "2006" }} {{ end }} {{ .Site.Title }}</span>
+  </div>
+</footer>
+
+</body>
+</html>
