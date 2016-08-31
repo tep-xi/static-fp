@@ -1,4 +1,4 @@
-baseurl = "https://github.mit.edu/pages/tep/static-fp/"
+baseurl = "http://tep.mit.edu"
 languageCode = "en-us"
 title = "tEp"
 theme = "base16"

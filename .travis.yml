@@ -1,24 +1,21 @@
-language: go
-
-go:
- - "1.7"
+language: generic
+sudo: required
+dist: trusty
+services:
+- docker
 env:
- global:
-  -SSH_KEY="travis_key"
-  -GIT_NAME="tEp"
-  -GIT_EMAIL="tepz@mit.edu"
-  -SOURCE_DIR="public"
-  -DEPLOY_BRANCH="master"
-  
-before_install:
- - openssl aes-256-cbc -K $encrypted_3c95cbedf40a_key -iv $encrypted_3c95cbedf40a_iv -in travis_key.enc -out travis_key -d
-
-before_script:
- - go get -u github.com/spf13/hugo
-
-script:
- - git clone https://github.com/ggilmore/hugo-base16-theme ./themes/base16
- - hugo
-
+  global:
+  - COMMIT=${TRAVIS_COMMIT::8}
+  # DOCKER_EMAIL, DOCKER_USER, DOCKER_PASS 
+  - secure: CMgUP6PxnhU+G2GPjUHz7ZNpzWXjIksOB9YvupGo6XlfZF7Vrq0nQWEAKyFA20+t14EpP0BOgah/toBa1ilttFjZWDcgmjloVe40eiEPp9URsNFju992aAyiAV5HT7z/srq4VxiTfrTwQuDSenF6+9kS7/mJcW3IL8dUIGuOuWBEwapwtkQZUrWX6Afckck3hWHqlenRLsd73gYjXjNeZqHDRmk+Wt+jnTYR0Rob1uftNLpKnsLpjCnVPAkX1JBRpYUHB9749LYpY6xdQbaJQMr66LkjzOmX8DX7YYv/LVmQDTW2J5IMs/iOAYOvqd9E9m6JIAE3/RRrQDIntS58BFTkw+iEgYwhSnF4NoUShA4FsMTsK25PovfJDSBKhUG3pnvQNuvMvEDXhS9G0zSprqU4aabC5CPDJoJ0muPWeefvy+vDHyRchf6bd6OOjBSj1Nl2yFqxor8Yh4I95J1NBTITlF9ij75oXww4V++o8LS+fvvdG+KCoeaZH9NGXbC6EyXsnOpw/4eO1AKljsqgC0QBpXfJLI3AOSpxv1rvzuJctdhjKt0aBVMkqvKP7Q5lXaDmPLaXNDsqWKMWYLlXgJCiVqZh/oIIrF6jMMlIQMaF9l2Lw81u5lG1yy68xRbgeYf4BQZFPhxm8nNJoE2Xm+fsSkYZ1fudOxoKYYsEwXg=
+  - secure: jbb9vhyEZ0cqJBVsJTU1HJS8MxiQ6FOVktSUM9EU+5AgM/oSX8c/7xhxFKkRCEcWD7pTyHkSEnb2TtwarBuwR4h00eRmOSk/48SBfCrhXKpTpLnd9GxVOLnWwycjVT/xrsy5BhJE9ficAlC9TcyL20DmKAlAWtklGM4c+bg9/AzKOmCAx34LlGrPSbEm4qjBnxbbebThkdhZK9q1lNkKUxw8DykND31seblmxCrNS1Jv9RQZZB6BAR5xAGMCrGLOIa33jYD7/9PZfYUDO5QPHLGXs92XBlB86vDPo/QKXJMajSCsQZ+D7ILtmllG+OnRgZ34iXEuK6tEEutM7RmKAeLAw6e4JxEmHMZC2sMC9jnJI9VzgmlSh4QeP00dKGs0iygrq3TzsFsLO4ufPZ82a0MHMoLopnCMxGpJS09fWX5iw4PGZNqqBkI11aJSSqE2UG0tg60t0RaMu2i/nIhxxf87s3AOMFmcbJWplnXSPQ+9/04/AtRAtjMRtymvrE0t7ypij3Ygi2iHvb0xQpr0ejhPQoowaqnc4zNIN054CY4IKp09WnON+rc/Rb6YdKHKmq+ju0pNcsjothYb54ZQgmSmRdKBk+4dxgZH6VjJmktmhiZ1HwCrQyLzVokxHgIH2Be6SLPer6hQXBwNPl0yMTDJZCCR9L60tOZuIkdOykk=
+  - secure: lMR24m1HQV50am1yGVDPzA0pLtLnxwfvEAPnTPQf1k8HWQ28myiW6GPmtpLaOfsg6M/70FH/fx2Lds5xtyULaXftaFUOT2an1v1lAgUHbMfJM0NctKcbRQxf9doRRdJAG8uQ9ncbC+EDOSV6v6QowgLmEWzHZ5trn1S3HqanqKeddtkDOsMe2ga4EXYPyjweH0p6MyfKImDD6q7e1BI/tjI1hQkcvg33eaV3qETE610hURA9NfyTY9NxR5Di4s/A8TAugC1LwIPsMY22lqOW5Y8QjdLNPGK5dA6B6918yXH1K6/dHYL6dWgZtGF/brddFSjhcmV72hItGuoAnd6nZaljUS7guAJAvkyqBQWs+6XMnvxWMqbYwWpkRIY0ahIgYGnooDk78NuazTF3bhb5g7zb1IveYBwTheMsXrRLyNTL1t2Cqav7t1Hr5AbljL32GdgL+oal1A2UCRLY4XJaFisBNVpACEBTzRu2Vn6NhJPKmP+h9J0PLB9MJQaR3HFc7GkV75+YYXLWGEY4MUcbNWY/kj0iDrvXWR5Fi012b6dHi3RxBN7tK9pmlqePHx9y7+7WF92wpznIOzqqQlcNwwJh+WKxLTw+yiDd7/wl+qe0j+FeodbL1JfEM38bFBaDr93yI0KChvEU5bevVnBI9k5rIN5NRSu1QzhiHstVH48=
 after_success:
- - ./scripts/deploy.sh
+- docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+- export REPO=tepxi/static-fp
+- export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH
+  ; fi`
+- docker build -f Dockerfile -t $REPO:$COMMIT .
+- docker tag $REPO:$COMMIT $REPO:$TAG
+- docker tag $REPO:$COMMIT $REPO:travis-$TRAVIS_BUILD_NUMBER
+- docker push $REPO
