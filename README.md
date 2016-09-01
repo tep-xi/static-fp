@@ -39,9 +39,40 @@ had before.
 
 ## Dev Instructions
 
-### Requirements
+## Requirements
 
 - [Hugo](https://gohugo.io/overview/installing/) (`v.16` at this time of writing)
 
+- [Docker](https://www.docker.com/) if you want to mirror prod locally
 
+## Modifying the Site 
+
+[Hugo Quickstart](http://gohugo.io/overview/quickstart/) - this'll get you started with the basics of Hugo,
+but the documentation as a whole is pretty good. Read it. 
+
+### Custom Archetypes
+
+- Rush Event 
+
+  - Variables (in the front matter)
+    - Date - this is a Hugo default, but set the day for the actual time that the rush 
+    event is occurring, not when you created the file (the default behavior)
+
+    - Title - this is a Hugo default, set it for the actual title of the event, not just the file
+    name (the default behavior)
+
+    - Draft - this is a Hugo default, set it to false if you actually want it to be rendered
+    and posted on the main site (content pieces with `draft = true` aren't rendered by default)
+
+    - Location - fill this in if the Location isn't at tEp
+
+  - The partial template for the list view as a whole is `rush.html`, located in the
+  `layouts` folder 
+  - The partial template for each individual rush event inside the list view is `rush-event.html`
+
+
+### Front Page (index), Tour Page, Contact Page
+
+All these pages are rendered as `single` articles and are located in 
+the root of the content folder. The home-page's partial template is `homepage.html`.  
 
