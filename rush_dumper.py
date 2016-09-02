@@ -38,7 +38,7 @@ def make_file(cur_date, line):
     file_string = """\
 +++
 date = "{iso8601_date}"
-draft = true
+draft = false
 location = ""
 title="{title}"
 +++
