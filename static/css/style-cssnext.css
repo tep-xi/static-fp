@@ -320,8 +320,8 @@ footer a {
 
 .article-list .rush-title-container{
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .article-list .rush-event {
