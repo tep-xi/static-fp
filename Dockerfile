@@ -31,5 +31,8 @@ RUN apk add --update wget ca-certificates && \
 RUN git clone https://github.com/ggilmore/hugo-base16-theme /tep.mit.edu/themes/base16
 WORKDIR /tep.mit.edu
 EXPOSE 80
-CMD /usr/bin/hugo server --bind=0.0.0.0 --baseUrl=$BASE_URL -p 80
+CMD /usr/bin/hugo server --bind=0.0.0.0 \ 
+  -p 80 \
+  --appendPort=false \
+  --baseUrl=$BASE_URL 
 
