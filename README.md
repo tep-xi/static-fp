@@ -21,7 +21,7 @@ build:
 
 Each Docker image is a self-contained web server that serves the tEp website. There are two things to take notice of: 
 
-- Only the container's `1313` port is exposed, so you need to pass the `-p HOSTPORT:1313` flag to `docker run` in order to access it
+- Only the container's `80` port is exposed, so you need to pass the `-p HOSTPORT:80` flag to `docker run` in order to access it
 on the host [(see here for more info)](https://github.com/wsargent/docker-cheat-sheet#exposing-ports).
 
 - The sites `baseUrl` is blank by default. For dev purposes, you can
