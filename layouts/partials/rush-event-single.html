@@ -3,7 +3,7 @@
   <div class="meta">
 {{ if eq $dateMissing false }}
     <span class="key">starts</span>
-    <span class="val"><time itemprop="startTime" datetime="{{ .Date.Format "2006-01-02T03:04:05" }}">{{ .Date.Format "@ 3:04 PM on Monday [1/2/06]" }}</time></span>
+    <span class="val"><time itemprop="startTime" datetime="{{ .Date.Format "2006-01-02T03:04:05" }}">{{ .Date.Format "@ 3:04 PM on Monday [2006-01-02]" }}</time></span>
 {{ end }}
 {{ with .Params.categories }}
     <span class="key">{{ if eq $dateMissing true }}published {{ end }}in</span>
