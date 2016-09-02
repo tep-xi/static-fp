@@ -63,12 +63,6 @@ div.clearfix {
   overflow: auto;
 }
 
-@media (--breakpoint-md) {
-  .container {
-    width: 100%;
-  }
-}
-
 article.single section,
 .article-list article {
   background-color: var(--base07);
