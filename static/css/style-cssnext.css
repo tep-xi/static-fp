@@ -123,6 +123,23 @@ footer .container{
   justify-content: space-between;
 }
 
+footer .copyright {
+  display: flex; 
+  align-items: center;
+  justify-content: space-around; 
+}
+
+footer .copyright a {
+  display: flex; 
+  align-items: center; 
+}
+
+footer #octocat {
+  fill: var(--base03);
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
+
 @media (--breakpoint-md) {
   footer {
     margin-top: 0;
@@ -249,6 +266,10 @@ footer a {
 .homepage .tag {
   margin-right: 2em;
 }
+
+.homepage article.single figure{
+  background-color: transparent;
+} 
 
 /* Post List Layout */
 
