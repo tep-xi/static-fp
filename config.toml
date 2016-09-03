@@ -32,6 +32,7 @@ theme = "base16"
 [[menu.other_sites]]
     name="squidnet"
     url="squidnet/"
+    weight=-100 # extremely important that squidnet be first site
 
 [[menu.other_sites]]
     name="ola"
@@ -44,3 +45,7 @@ theme = "base16"
 [[menu.other_sites]]
     name="t.e.p.s."
     url="teps/"
+
+[[menu.other_sites]]
+    name="internal wiki"
+    url="wiki/"
