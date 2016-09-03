@@ -2,14 +2,14 @@
 </div>
 
 <footer>
-<div class="container">
-  <span class="caret">tEp Services:</span>
-  {{ range .Site.Menus.other_sites }}
-      <a class="path" href="{{ .URL | relURL }}">[{{ .Name }}]</a>
-      <span class="caret">#</span>
-  {{ end }}
-  <span class="caret"> _</span>
-</div>
+  <div class="container clearfix">
+    <span class="caret">tEp Services:</span>
+    {{ range .Site.Menus.other_sites }}
+    <a class="path" href="{{ .URL | relURL }}">[{{ .Name }}]</a>
+    <span class="caret">#</span>
+    {{ end }}
+    <span class="caret"> _</span>
+  </div>
   <div class="container">
     <div class="copyright">
       <div>
