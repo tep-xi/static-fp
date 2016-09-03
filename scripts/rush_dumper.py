@@ -45,7 +45,7 @@ title="{title}"
     print(file_string)
     file_name = "{datetime}_{title}.md".format(datetime=event_datetime.isoformat(), title=event_title[0:4])
     print(file_name)
-    output = open("../content/rush/schedule_dump/"+file_name, 'w')
+    output = open("../content/rush/"+file_name, 'w')
     output.write(file_string)
 
 with open("Rush_Schedule.csv", newline='') as schedule_csv:
