@@ -81,13 +81,13 @@ article.single section,
   }
 }
 
-header, footer, .navbar {
+header, footer {
   background-color: var(--base01);
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-header, .navbar{
+header {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
@@ -105,17 +105,6 @@ footer {
   margin-bottom: 1rem;
   text-align: center;
   font-size: 0.9em;
-  color: var(--base03);
-}
-
-.navbar .container {
-  max-width: none;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  color: var(--base03);
-}
-
-.navbar a.path {
   color: var(--base03);
 }
 

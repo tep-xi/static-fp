@@ -64,7 +64,7 @@ article.single section,
   }
 }
 
-header, footer, .navbar {
+header, footer {
   background-color: #393939;
   padding-top: 16px;
   padding-top: 1rem;
@@ -72,7 +72,7 @@ header, footer, .navbar {
   padding-bottom: 1rem;
 }
 
-header, .navbar{
+header {
   margin-top: 16px;
   margin-top: 1rem;
   margin-bottom: 32px;
@@ -94,19 +94,6 @@ footer {
   margin-bottom: 1rem;
   text-align: center;
   font-size: 0.9em;
-  color: #747369;
-}
-
-.navbar .container {
-  max-width: none;
-  padding-left: 16px;
-  padding-left: 1rem;
-  padding-right: 16px;
-  padding-right: 1rem;
-  color: #747369;
-}
-
-.navbar a.path {
   color: #747369;
 }
 
