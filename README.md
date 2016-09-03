@@ -76,3 +76,23 @@ but the documentation as a whole is pretty good. Read it.
 All these pages are rendered as `single` articles and are located in 
 the root of the content folder. The home-page's partial template is `homepage.html`.  
 
+### CSS changes
+The CSS is contained in `static/css/style-cssnext.css`. This is a CSSnext source file, which is not our fault (the theme came this way). It gets compiled into `static/css/style.css`, and then minified into `static/css/style.min.css`. The site only loads the minified version. **Do not** make changes to style.css; they will be overwritten when someone next maintains the site.
+
+To do the changes yourself, you'll need the following node packages (installed with `npm`).
+
+- cssnext (I used 1.8.4)
+- postcss-cssnext (I used 2.7.0)
+- postcss-cli (I used 2.6.0)
+- clean-css (I used 3.4.19)
+
+Find the path to your postcss-cli executable and your clean-css executable. I will pretend they are in your path.
+Run the command
+```
+postcss --use=cssnext style-cssnext.css > style.css
+```
+to produce the human readable version and
+```
+postcss --use=cssnext style-cssnext.css | cleancss > style.min.css
+```
+to make the minified version.

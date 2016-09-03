@@ -12,6 +12,7 @@ theme = "base16"
 [[menu.main]]
     name="rush"
     url="rush/"
+    weight=-99 # second thing
 
 [[menu.main]]
     name="the gospel"
@@ -21,7 +22,25 @@ theme = "base16"
     name="tour"
     url="tour/"
 
+
 [[menu.main]]
     name="contact/social"
     url="contact/"
     weight=100 # ensure this is the right-most link
+
+#Other tep sites
+[[menu.other_sites]]
+    name="squidnet"
+    url="squidnet/"
+
+[[menu.other_sites]]
+    name="ola"
+    url="ola/"
+
+[[menu.other_sites]]
+    name="lates"
+    url="lates/"
+
+[[menu.other_sites]]
+    name="t.e.p.s."
+    url="teps/"
