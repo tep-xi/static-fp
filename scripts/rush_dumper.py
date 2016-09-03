@@ -32,9 +32,6 @@ def make_file(cur_date, line):
     event_title = line[1]
     event_desc = line[4]
     iso_date = event_datetime.isoformat()
-    if u'\u000A' in iso_date:
-        print("ALERT ALERT" * 20)
-        print(iso_date)
     file_string = """\
 +++
 date = "{iso8601_date}"
@@ -48,7 +45,7 @@ title="{title}"
     print(file_string)
     file_name = "{datetime}_{title}.md".format(datetime=event_datetime.isoformat(), title=event_title[0:4])
     print(file_name)
-    output = open("content/rush/schedule_dump/"+file_name, 'w')
+    output = open("../content/rush/schedule_dump/"+file_name, 'w')
     output.write(file_string)
 
 with open("Rush_Schedule.csv", newline='') as schedule_csv:
