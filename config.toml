@@ -49,3 +49,4 @@ theme = "base16"
 [[menu.other_sites]]
     name="internal wiki"
     url="wiki/"
+    weight=100
