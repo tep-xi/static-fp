@@ -2,6 +2,7 @@ baseurl = "http://tep.mit.edu"
 languageCode = "en-us"
 title = "tEp"
 theme = "base16"
+pluralizelisttitles = false
 
 # home page
 [[menu.main]]
