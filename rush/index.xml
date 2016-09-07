@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rush on tEp</title>
-    <link>http://tep.mit.edu/rush/</link>
-    <description>Recent content in Rush on tEp</description>
+    <title>Rush-rss on tEp</title>
+    <link>http://tep.mit.edu/rush/index.xml</link>
+    <description>Recent content in Rush-rss on tEp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Sep 2016 19:22:00 -0400</lastBuildDate>
@@ -81,10 +81,10 @@
     
     <item>
       <title>The Crock</title>
-      <link>http://tep.mit.edu/rush/sep11/2016-09-11T20:22:00-04:00_The%20/</link>
+      <link>http://tep.mit.edu/rush/sep11/2016-09-11T20:22:00-04:00_The/</link>
       <pubDate>Sun, 11 Sep 2016 20:22:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/sep11/2016-09-11T20:22:00-04:00_The%20/</guid>
+      <guid>http://tep.mit.edu/rush/sep11/2016-09-11T20:22:00-04:00_The/</guid>
       <description>&lt;p&gt;A Comic Rock Opera, written and performed by tEp alums.&lt;/p&gt;
 </description>
     </item>
