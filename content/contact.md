@@ -5,8 +5,6 @@ draft = false
 
 __Phone Number:__ `617.262.5090`
 
-Do you need a ride? Call us at the above number, and we'll pick you up in our van.
-
 __Address:__ `253 Commonwealth Avenue Boston, MA 02116`
 
 <div class="iframe-wrp">
