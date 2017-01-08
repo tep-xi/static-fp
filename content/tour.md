@@ -14,4 +14,4 @@ For your tour, we are providing you with Irving Q. Tep, the spirit of the house.
 
 Without further ado:
 
-[I want to go on the tour!](http://tep.mit.edu:8888/game/teptour)
+[I want to go on the tour!](http://tour.mit.edu/game/teptour)
