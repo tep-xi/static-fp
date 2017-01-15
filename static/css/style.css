@@ -138,9 +138,9 @@ footer .copyright a {
 
 footer #octocat {
   fill: #747369;
-  padding-left: 3px;
+  padding-left: 3.2px;
   padding-left: .2rem;
-  padding-right: 3px;
+  padding-right: 3.2px;
   padding-right: .2rem;
 }
 
@@ -358,6 +358,11 @@ footer a {
   padding-right: 2rem;
   margin-bottom: 32px;
   margin-bottom: 2rem;
+}
+
+.article-list .old .rush-event{
+  text-decoration: line-through;
+  opacity: .5;
 }
 
 .article-list h2.list-key {

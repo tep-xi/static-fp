@@ -1,13 +1,57 @@
 {{ partial "header.html" . }}
+{{ $.Scratch.Set "displayOld" false }}
 <main role="main" class="article-list">
+
   <div class="rush-title-container"> 
-    <div><h1 class="list-title">Rush Events </h1></div>
+    <div><h1 class="list-title">Current Rush Events </h1></div>
   </div>
+
   {{ range .Data.Pages.GroupByDate "Monday, January 2" "asc"}}
-    <h2 class="list-key">{{ .Key }}</h2>
+    {{ $.Scratch.Set "displayDate" true }} 
     {{ range .Pages }}
-      {{ partial "rush-event-list-entry.html" . }}
+      {{ if not (ge .Date.Unix .Now.Unix)}}
+        <!--don't display the date if there are no current events-->
+        {{ $.Scratch.Set "displayDate" false }} 
+        <!--only render the old section if there are expired events-->
+        {{ $.Scratch.Set "displayOld" true }}
+      {{ end }}
+    {{ end }}
+    {{ if $.Scratch.Get "displayDate" }}
+      <h2 class="list-key">{{ .Key }}</h2>
+      {{ range .Pages }}
+        {{ if ge .Date.Unix .Now.Unix}}
+          {{ partial "rush-event-list-entry.html" . }}
+        {{ end }}
+      {{ end }}
     {{ end }}
   {{ end }}
-</main>
+
+  {{ if $.Scratch.Get "displayOld" }}
+  
+        <div class="rush-title-container"> 
+          <div><h1 class="list-title">Old Rush Events </h1></div>
+        </div>
+
+        {{ range .Data.Pages.GroupByDate "Monday, January 2" "asc"}}
+          {{ $.Scratch.Set "displayDate" false }}
+          {{ range .Pages }}
+            {{ if lt .Date.Unix .Now.Unix}}
+              <!--only display the date if there are expired events-->
+              {{ $.Scratch.Set "displayDate" true }}
+            {{ end }}
+          {{ end }}
+          {{ if $.Scratch.Get "displayDate" }}
+            <h2 class="list-key">{{ .Key }}</h2>
+            {{ range .Pages }}
+              {{ if lt .Date.Unix .Now.Unix}}
+                <div class="old">
+                  {{ partial "rush-event-list-entry.html" . }}
+                </div>
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+  {{ end }}
+
+  </main>
 {{ partial "footer.html" . }}

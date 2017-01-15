@@ -2,7 +2,15 @@
 <article class="single" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="meta">
 {{ if eq $dateMissing false }}
-    <span class="key">starts</span>
+
+    <span class="key">
+        {{ if ge .Date.Unix .Now.Unix }}
+          starts
+        {{ else }}
+          started
+        {{ end }}
+    </span>
+
     <span class="val"><time itemprop="startTime" datetime="{{ .Date.Format "2006-01-02T03:04:05" }}">{{ .Date.Format "@ 3:04 PM on Monday [2006-01-02]" }}</time></span>
 {{ end }}
 {{ with .Params.categories }}
@@ -23,7 +31,16 @@
     </span>
 {{ end }}
   </div>
-  <h1 class="headline" itemprop="headline">[rush] {{ .Title }}</h1>
+
+  <h1 class="headline" itemprop="headline">
+  {{ if ge .Date.Unix .Now.Unix  }} 
+    [rush] 
+  {{ else }}
+    [rush - OLD]
+  {{ end }} 
+  {{ .Title }}
+  </h1>
+
   <section class="body" itemprop="articleBody">
     {{ .Content }}
   </section>
