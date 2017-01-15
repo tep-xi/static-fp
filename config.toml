@@ -41,7 +41,7 @@ pluralizelisttitles = false
 
 [[menu.other_sites]]
     name="lates"
-    url="lates/"
+    url="http://lates.mit.edu"
 
 [[menu.other_sites]]
     name="t.e.p.s."
@@ -49,5 +49,5 @@ pluralizelisttitles = false
 
 [[menu.other_sites]]
     name="internal wiki"
-    url="wiki/"
+    url="http://wiki.mit.edu"
     weight=100
