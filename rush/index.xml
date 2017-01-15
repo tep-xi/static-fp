@@ -6,8 +6,18 @@
     <description>Recent content in Rush on tEp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Sep 2016 19:22:00 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jan 2017 11:22:00 -0400</lastBuildDate>
     <atom:link href="http://tep.mit.edu/rush/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Test</title>
+      <link>http://tep.mit.edu/rush/jan21/test_event/</link>
+      <pubDate>Sat, 21 Jan 2017 11:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/jan21/test_event/</guid>
+      <description>&lt;p&gt;Because I like testing things.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Haus Fud</title>

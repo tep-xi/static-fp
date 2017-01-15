@@ -332,6 +332,11 @@ footer a {
   margin-bottom: 2rem;
 }
 
+.article-list .old .rush-event{
+  text-decoration: line-through;
+  opacity: .5;
+}
+
 .article-list h2.list-key {
   font-size: 2.5em;
   color: var(--base08);

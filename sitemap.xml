@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tep.mit.edu/rush/jan21/test_event/</loc>
+    <lastmod>2017-01-21T11:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tep.mit.edu/rush/sep14/2016-09-14T19:22:00-04:00_Haus/</loc>
     <lastmod>2016-09-14T19:22:00-04:00</lastmod>
   </url>
@@ -81,7 +86,7 @@
   
   <url>
     <loc>http://tep.mit.edu/rush/</loc>
-    <lastmod>2016-09-14T19:22:00-04:00</lastmod>
+    <lastmod>2017-01-21T11:22:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -97,7 +102,7 @@
   
   <url>
     <loc>http://tep.mit.edu/</loc>
-    <lastmod>2016-09-14T19:22:00-04:00</lastmod>
+    <lastmod>2017-01-21T11:22:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
