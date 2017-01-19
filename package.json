@@ -1,0 +1,19 @@
+{
+  "name": "static-fp",
+  "version": "1.0.0",
+  "description": "\"Static Website Generator for tEp\"",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tep-xi/static-fp.git"
+  },
+  "author": "tEp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tep-xi/static-fp/issues"
+  },
+  "homepage": "https://github.com/tep-xi/static-fp#readme"
+}
