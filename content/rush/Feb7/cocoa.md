@@ -5,4 +5,4 @@ location = ""
 title="Cocoa"
 +++
 
-(Cocoa)
+Our weekly hot cocoa study break, with bread, cheese, and other tasty snacks.

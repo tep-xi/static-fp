@@ -5,4 +5,4 @@ location = ""
 title="Hemiformal Party"
 +++
 
-(Hemiformal Party)
+Our first party of the semester. Dress code: hemiformal! Rent a tuxedo and split it with your friend.

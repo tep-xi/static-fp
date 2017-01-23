@@ -1,8 +1,8 @@
 +++
-date = "2017-02-07T17:22:00-04:00"
+date = "2017-02-07T20:44:00-04:00"
 draft = false
 location = ""
 title="Dramatic Dr. Seuss"
 +++
 
-(Dramatic Dr. Seuss)
+A childhood classic, with a new twist.

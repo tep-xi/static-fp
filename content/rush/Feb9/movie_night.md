@@ -5,4 +5,4 @@ location = ""
 title="Movie Night"
 +++
 
-(Movie Night)
+Enjoy your last day of freedom before the problem sets return.

@@ -5,4 +5,4 @@ location = ""
 title= "Milk Crate Construction"
 +++
 
-(Milk Crate Construction)
+We'll build a tower all the way to the fifth floor... and then call in the demolition crew. Hard hats provided.

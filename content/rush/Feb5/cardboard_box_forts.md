@@ -5,4 +5,4 @@ location = ""
 title="Cardboard Box Forts"
 +++
 
-(Cardboard Box Forts)
+The fortress that you've always wanted but never had. Build and defend your cardboard castle today! BYO siege weapons.

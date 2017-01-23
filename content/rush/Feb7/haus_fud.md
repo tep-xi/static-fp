@@ -5,4 +5,4 @@ location = ""
 title= "Haus Fud"
 +++
 
-(Haus Fud)
+Come enjoy a home-cooked meal after the first day of classes. Ask us about the food fight rules.
