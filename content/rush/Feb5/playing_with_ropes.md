@@ -5,4 +5,4 @@ location = ""
 title= "Playing With Ropes"
 +++
 
-(Playing With Ropes)
+When is a knot not for naught? Should you take a bit of a bite of a bight? Come over and see what you can do with a few hundred feet of rope.

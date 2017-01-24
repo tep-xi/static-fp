@@ -5,4 +5,4 @@ location = ""
 title= "Dumpling Dinner"
 +++
 
-(Dumpling Dinner)
+We made a dumpling mountain. Come help us defeat it with the power of your hunger!

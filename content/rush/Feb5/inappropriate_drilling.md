@@ -5,4 +5,4 @@ location = ""
 title= "Inappropriate Drilling"
 +++
 
-(Inappropriate Drilling)
+What happens when you twirl al dente spaghetti at 3000 rpm? It's like Deepwater Horizon all over again.
