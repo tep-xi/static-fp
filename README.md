@@ -30,20 +30,7 @@ on the host [(see here for more info)](https://github.com/wsargent/docker-cheat-
   BASE_URL=http://tep.mit.edu`) flag to `docker run` [(see here for
   more info)](https://docs.docker.com/engine/reference/run/#/env-environment-variables). 
   
-In the future, when `tep.mit.edu` is not a PowerPC machine,
-[Watchtower](https://github.com/CenturyLinkLabs/watchtower) will be used to
-keep the currently running `tepxi/static-fp` in sync with the `latest`
-Docker Hub version. If an update is required, Watchtower will restart
-the container with the new version, keeping the same options as you
-had before.
-
-For right now, however, `/var/www/www2/` on `tep.mit.edu` is a git repository
-set up to track the `public` branch of this repository. A cron job on
-`tep.mit.edu` is set up to pull and checkout `public` every five minutes. Since
-Travis pushes the output of Hugo there when it builds, the `/var/www/www2`
-directory should have the latest version of the static site. Nginx on the
-server will serve that directory the same way it used to serve the old static
-site.
+[Watchtower](https://github.com/CenturyLinkLabs/watchtower) is used to keep the currently running `tepxi/static-fp` in sync with the `latest` Docker Hub version. If an update is required, Watchtower will restart the container with the new version, keeping the same options as you had before.
 
 ## Dev Instructions
 
