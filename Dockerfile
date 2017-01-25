@@ -12,8 +12,8 @@ RUN apk --update add git && \
 
 # setup hugo 
 
-## this version of the site has been built with hugo 0.16
-ENV HUGO_VERSION=0.16
+## this version of the site has been built with hugo 0.18.1
+ENV HUGO_VERSION=0.18.1
 
 ## override this environment variable (BASE_URL="http://tep.mit.edu") 
 ## in order to properly deploy it to tep.mit.edu, etc. 
@@ -21,10 +21,10 @@ ENV BASE_URL=""
 
 RUN apk add --update wget ca-certificates && \
   cd /tmp/ && \
-  wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-64bit.tgz && \
-  tar xzf hugo_${HUGO_VERSION}_linux-64bit.tgz && \
-  rm -r hugo_${HUGO_VERSION}_linux-64bit.tgz && \
-  mv hugo /usr/bin/hugo && \
+  wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
+  tar -xvzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
+  rm -r hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
+  mv hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 /usr/bin/hugo && \ 
   apk del wget ca-certificates && \
   rm /var/cache/apk/*
 
