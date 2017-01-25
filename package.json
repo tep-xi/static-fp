@@ -2,9 +2,16 @@
   "name": "static-fp",
   "version": "1.0.0",
   "description": "\"Static Website Generator for tEp\"",
-  "main": " ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss:build": "postcss --use=postcss-cssnext static/css/style-cssnext.css > static/css/style.css",
+    "css:min": "cleancss static/css/style.css > static/css/style.min.css",
+    "css:build": "npm run postcss:build && npm run css:min",
+    "css:watch": "onchange 'static/css/style-cssnext.css' -- npm run css:build",
+    "build": "npm run css:build",
+    "prewatch": "npm run build",
+    "watch": "npm run css:watch",
+    "start": "parallelshell 'npm run watch' 'hugo server'"
   },
   "repository": {
     "type": "git",
@@ -15,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/tep-xi/static-fp/issues"
   },
-  "homepage": "https://github.com/tep-xi/static-fp#readme"
+  "homepage": "https://github.com/tep-xi/static-fp#readme",
+  "devDependencies": {
+    "clean-css": "^4.0.0",
+    "onchange": "^3.2.1",
+    "parallelshell": "^2.0.0",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.9.0"
+  }
 }
