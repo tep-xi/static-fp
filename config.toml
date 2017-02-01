@@ -1,6 +1,6 @@
 baseurl = "http://tep.mit.edu"
 languageCode = "en-us"
-title = "tEp"
+title = "tEp: A Co-Ed Fraternity"
 theme = "base16"
 pluralizelisttitles = false
 

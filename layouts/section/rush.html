@@ -1,56 +1,27 @@
 {{ partial "header.html" . }}
 {{ $.Scratch.Set "displayOld" false }}
+{{ partial "hero.html" . }}
 <main role="main" class="article-list">
 
   <div class="rush-title-container"> 
-    <div><h1 class="list-title">Current Rush Events </h1></div>
+    <div><h1 class="list-title">Spring Rush Events </h1></div>
   </div>
 
   {{ range .Data.Pages.GroupByDate "Monday, January 2" "asc"}}
-    {{ $.Scratch.Set "displayDate" true }} 
+    {{ $.Scratch.Set "displayDate" false }} 
     {{ range .Pages }}
-      {{ if not (ge .Date.Unix .Now.Unix)}}
-        <!--don't display the date if there are no current events-->
-        {{ $.Scratch.Set "displayDate" false }} 
-        <!--only render the old section if there are expired events-->
-        {{ $.Scratch.Set "displayOld" true }}
+      {{ if (eq (.Date.Format "Monday, January 2") "Friday, February 3")}}
+        {{ $.Scratch.Set "displayDate" true }} 
       {{ end }}
     {{ end }}
     {{ if $.Scratch.Get "displayDate" }}
       <h2 class="list-key">{{ .Key }}</h2>
       {{ range .Pages }}
-        {{ if ge .Date.Unix .Now.Unix}}
+        {{ if eq (.Date.Format "Monday, January 2") "Friday, February 3"}}
           {{ partial "rush-event-list-entry.html" . }}
         {{ end }}
       {{ end }}
     {{ end }}
-  {{ end }}
-
-  {{ if $.Scratch.Get "displayOld" }}
-  
-        <div class="rush-title-container"> 
-          <div><h1 class="list-title">Old Rush Events </h1></div>
-        </div>
-
-        {{ range .Data.Pages.GroupByDate "Monday, January 2" "asc"}}
-          {{ $.Scratch.Set "displayDate" false }}
-          {{ range .Pages }}
-            {{ if lt .Date.Unix .Now.Unix}}
-              <!--only display the date if there are expired events-->
-              {{ $.Scratch.Set "displayDate" true }}
-            {{ end }}
-          {{ end }}
-          {{ if $.Scratch.Get "displayDate" }}
-            <h2 class="list-key">{{ .Key }}</h2>
-            {{ range .Pages }}
-              {{ if lt .Date.Unix .Now.Unix}}
-                <div class="old">
-                  {{ partial "rush-event-list-entry.html" . }}
-                </div>
-              {{ end }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
   {{ end }}
 
   </main>

@@ -227,14 +227,14 @@ footer a {
   }
 }
 
-.homepage h1.site-title {
+h1.site-title {
   text-align: center;
   font-size: 5em;
   color: #66cccc;
 }
 
 @media (max-width: 52em) {
-  .homepage h1.site-title {
+  h1.site-title {
     font-size: 3em;
   }
 }

@@ -216,14 +216,14 @@ footer a {
   }
 }
 
-.homepage h1.site-title {
+h1.site-title {
   text-align: center;
   font-size: 5em;
   color: var(--base0c);
 }
 
 @media (--breakpoint-md) {
-  .homepage h1.site-title {
+  h1.site-title {
     font-size: 3em;
   }
 }

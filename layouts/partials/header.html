@@ -14,20 +14,4 @@
 </head>
 <body>
 
-<header>
-  <div class="container clearfix">
-    {{ range .Site.Menus.main }}
-        <a class="path" href="{{ .URL | relURL }}">[{{ .Name }}]</a>
-        <span class="caret">#</span>
-    {{ end }}
-    <span class="caret"> _</span>
-    <div class="right">
-      {{ range $i, $page := (where .Site.Pages "Section" "pages") }}
-        {{ if not (eq $i 0) }}|{{ end }}
-        <a class="path" href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
-      {{ end }}
-    </div>
-  </div>
-</header>
-
 <div class="container">
