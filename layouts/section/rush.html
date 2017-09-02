@@ -9,7 +9,7 @@
   {{ range .Data.Pages.GroupByDate "Monday, January 2" "asc"}}
     {{ $.Scratch.Set "displayDate" true }} 
     {{ range .Pages }}
-      {{ if not (ge .Date.Unix .Now.Unix)}}
+      {{ if not (ge .Date.Unix now.Unix)}}
         <!--don't display the date if there are no current events-->
         {{ $.Scratch.Set "displayDate" false }} 
         <!--only render the old section if there are expired events-->
@@ -19,7 +19,7 @@
     {{ if $.Scratch.Get "displayDate" }}
       <h2 class="list-key">{{ .Key }}</h2>
       {{ range .Pages }}
-        {{ if ge .Date.Unix .Now.Unix}}
+        {{ if ge .Date.Unix now.Unix}}
           {{ partial "rush-event-list-entry.html" . }}
         {{ end }}
       {{ end }}
@@ -35,7 +35,7 @@
         {{ range .Data.Pages.GroupByDate "Monday, January 2" "asc"}}
           {{ $.Scratch.Set "displayDate" false }}
           {{ range .Pages }}
-            {{ if lt .Date.Unix .Now.Unix}}
+            {{ if lt .Date.Unix now.Unix}}
               <!--only display the date if there are expired events-->
               {{ $.Scratch.Set "displayDate" true }}
             {{ end }}
@@ -43,7 +43,7 @@
           {{ if $.Scratch.Get "displayDate" }}
             <h2 class="list-key">{{ .Key }}</h2>
             {{ range .Pages }}
-              {{ if lt .Date.Unix .Now.Unix}}
+              {{ if lt .Date.Unix now.Unix}}
                 <div class="old">
                   {{ partial "rush-event-list-entry.html" . }}
                 </div>
