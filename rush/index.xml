@@ -2,161 +2,364 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rush on tEp</title>
-    <link>http://tep.mit.edu/rush/index.xml</link>
+    <link>http://tep.mit.edu/rush/</link>
     <description>Recent content in Rush on tEp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Feb 2017 18:22:00 -0400</lastBuildDate>
-    <atom:link href="http://tep.mit.edu/rush/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Sep 2017 19:22:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://tep.mit.edu/rush/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Alumni Dinner</title>
-      <link>http://tep.mit.edu/rush/feb11/alumni_dinner/</link>
-      <pubDate>Sat, 11 Feb 2017 18:22:00 -0400</pubDate>
+      <title></title>
+      <link>http://tep.mit.edu/rush/sep13/2017-09-13t192200-0400_/</link>
+      <pubDate>Wed, 13 Sep 2017 19:22:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb11/alumni_dinner/</guid>
-      <description>&lt;p&gt;Meet some recent and not-so-recent tEp alumni over dinner. We provide the food, they provide stories and advice. (Ask about what happens when you attach handcuffs to a fire sprinkler.)&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep13/2017-09-13t192200-0400_/</guid>
+      <description>We have a family-style dinner every Sunday through Thursday night. Come eat with us!</description>
     </item>
     
     <item>
-      <title>Hemiformal Party</title>
-      <link>http://tep.mit.edu/rush/feb10/hemiformal_party/</link>
-      <pubDate>Fri, 10 Feb 2017 22:22:00 -0400</pubDate>
+      <title>s Fud with Us!</title>
+      <link>http://tep.mit.edu/rush/sep13/2017-09-13t175200-0400_s-fu/</link>
+      <pubDate>Wed, 13 Sep 2017 17:52:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb10/hemiformal_party/</guid>
-      <description>&lt;p&gt;Our first party of the semester. Dress code: hemiformal! Rent a tuxedo and split it with your friend.&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep13/2017-09-13t175200-0400_s-fu/</guid>
+      <description>Enlist with Team Wednesday and aid in their quest to feed a house full of hungry tEps.</description>
     </item>
     
     <item>
-      <title>Movie Night</title>
-      <link>http://tep.mit.edu/rush/feb9/movie_night/</link>
-      <pubDate>Thu, 09 Feb 2017 21:22:00 -0400</pubDate>
+      <title></title>
+      <link>http://tep.mit.edu/rush/sep12/2017-09-12t192200-0400_/</link>
+      <pubDate>Tue, 12 Sep 2017 19:22:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb9/movie_night/</guid>
-      <description>&lt;p&gt;Enjoy your last day of freedom before the problem sets return.&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep12/2017-09-12t192200-0400_/</guid>
+      <description>We have a family-style dinner every Sunday through Thursday night. Come eat with us!</description>
     </item>
     
     <item>
-      <title>Eat What We Found in the Wok</title>
-      <link>http://tep.mit.edu/rush/feb9/godel_escher_wok_eat/</link>
-      <pubDate>Thu, 09 Feb 2017 19:22:00 -0400</pubDate>
+      <title>s Fud with Us!</title>
+      <link>http://tep.mit.edu/rush/sep12/2017-09-12t175200-0400_s-fu/</link>
+      <pubDate>Tue, 12 Sep 2017 17:52:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb9/godel_escher_wok_eat/</guid>
-      <description>&lt;p&gt;We have dinner at 19:22 every weeknight.&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep12/2017-09-12t175200-0400_s-fu/</guid>
+      <description>Enlist with Team Tuesday and aid in their quest to feed a house full of hungry tEps.</description>
     </item>
     
     <item>
-      <title>Godel, Escher, Wok</title>
-      <link>http://tep.mit.edu/rush/feb9/godel_escher_wok_cook/</link>
-      <pubDate>Thu, 09 Feb 2017 17:22:00 -0400</pubDate>
+      <title></title>
+      <link>http://tep.mit.edu/rush/sep11/2017-09-11t222200-0400_/</link>
+      <pubDate>Mon, 11 Sep 2017 22:22:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb9/godel_escher_wok_cook/</guid>
-      <description>&lt;p&gt;An entirely new theory of House Food cooking.&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep11/2017-09-11t222200-0400_/</guid>
+      <description>tEp has Cocoa the night after the first classes of the week, every week of the semester! Come over for cocoa, breads, cheeses and get to know tEp!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://tep.mit.edu/rush/sep11/2017-09-11t192200-0400_/</link>
+      <pubDate>Mon, 11 Sep 2017 19:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep11/2017-09-11t192200-0400_/</guid>
+      <description>We have a family-style dinner every Sunday through Thursday night. Come eat with us!</description>
+    </item>
+    
+    <item>
+      <title>s Fud with Us!</title>
+      <link>http://tep.mit.edu/rush/sep11/2017-09-11t175200-0400_s-fu/</link>
+      <pubDate>Mon, 11 Sep 2017 17:52:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep11/2017-09-11t175200-0400_s-fu/</guid>
+      <description>Enlist with Team Monday and aid in their quest to feed a house full of hungry tEps.</description>
+    </item>
+    
+    <item>
+      <title>The Crock</title>
+      <link>http://tep.mit.edu/rush/sep10/2017-09-10t202200-0400_the-/</link>
+      <pubDate>Sun, 10 Sep 2017 20:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep10/2017-09-10t202200-0400_the-/</guid>
+      <description>Come one, come all, to tEp&amp;rsquo;s annual Comic Rock Opera!</description>
     </item>
     
     <item>
       <title>Iron tEps Eating Competition</title>
-      <link>http://tep.mit.edu/rush/feb8/iron_tep_eating/</link>
-      <pubDate>Wed, 08 Feb 2017 19:22:00 -0400</pubDate>
+      <link>http://tep.mit.edu/rush/sep10/2017-09-10t192200-0400_iron/</link>
+      <pubDate>Sun, 10 Sep 2017 19:22:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb8/iron_tep_eating/</guid>
-      <description>&lt;p&gt;Which cook wins the grand prize? You be the judge.&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep10/2017-09-10t192200-0400_iron/</guid>
+      <description>Which cook wins the grand prize? You be the judge.</description>
     </item>
     
     <item>
       <title>Iron tEps Cooking Competition</title>
-      <link>http://tep.mit.edu/rush/feb8/iron_tep_cooking/</link>
-      <pubDate>Wed, 08 Feb 2017 17:22:00 -0400</pubDate>
+      <link>http://tep.mit.edu/rush/sep10/2017-09-10t172200-0400_iron/</link>
+      <pubDate>Sun, 10 Sep 2017 17:22:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb8/iron_tep_cooking/</guid>
-      <description>&lt;p&gt;What&amp;rsquo;s for dinner? We don&amp;rsquo;t know either. Come join tEp&amp;rsquo;s culinary experts in the ultimate cooking challenge.&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep10/2017-09-10t172200-0400_iron/</guid>
+      <description>What&amp;rsquo;s for dinner? We don&amp;rsquo;t know either. Come join tEp&amp;rsquo;s culinary experts in the ultimate cooking challenge.</description>
     </item>
     
     <item>
-      <title>Cocoa</title>
-      <link>http://tep.mit.edu/rush/feb7/cocoa/</link>
-      <pubDate>Tue, 07 Feb 2017 22:22:00 -0400</pubDate>
+      <title>Brunch</title>
+      <link>http://tep.mit.edu/rush/sep10/2017-09-10t112200-0400_brun/</link>
+      <pubDate>Sun, 10 Sep 2017 11:22:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb7/cocoa/</guid>
-      <description>&lt;p&gt;Our weekly hot cocoa study break, with bread, cheese, and other tasty snacks.&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep10/2017-09-10t112200-0400_brun/</guid>
+      <description>Fill your stomachs, heart, and pineal glands. tEp has brunch every Sunday morning. Join us for the spiritual awakening that is getting out of bed on Sunday.</description>
     </item>
     
     <item>
-      <title>Dramatic Dr. Seuss</title>
-      <link>http://tep.mit.edu/rush/feb7/dramatic_dr_seuss/</link>
-      <pubDate>Tue, 07 Feb 2017 20:44:00 -0400</pubDate>
+      <title>Science Smorgasbord</title>
+      <link>http://tep.mit.edu/rush/sep09/2017-09-09t162200-0400_scie/</link>
+      <pubDate>Sat, 09 Sep 2017 16:22:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb7/dramatic_dr_seuss/</guid>
-      <description>&lt;p&gt;A childhood classic, with a new twist.&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep09/2017-09-09t162200-0400_scie/</guid>
+      <description>Prepare your minds for true enlightenment that can only be achieved through applying a strong electromagnetic field to pickles.</description>
     </item>
     
     <item>
-      <title>Haus Fud</title>
-      <link>http://tep.mit.edu/rush/feb7/haus_fud/</link>
-      <pubDate>Tue, 07 Feb 2017 19:22:00 -0400</pubDate>
+      <title>Espresso Crawl</title>
+      <link>http://tep.mit.edu/rush/sep09/2017-09-09t112200-0400_espr/</link>
+      <pubDate>Sat, 09 Sep 2017 11:22:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb7/haus_fud/</guid>
-      <description>&lt;p&gt;Come enjoy a home-cooked meal after the first day of classes. Ask us about the food fight rules.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cook Haus Fud</title>
-      <link>http://tep.mit.edu/rush/feb7/cook_haus_fud/</link>
-      <pubDate>Tue, 07 Feb 2017 17:22:00 -0400</pubDate>
-      
-      <guid>http://tep.mit.edu/rush/feb7/cook_haus_fud/</guid>
-      <description>&lt;p&gt;Join Team Tuesday in their battle against pork groin, leafy vegetables, and that mysterious smell in the left refrigerator. Cooking experience not required.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Duck, Duck, Chili</title>
-      <link>http://tep.mit.edu/rush/feb6/chili_duck/</link>
-      <pubDate>Mon, 06 Feb 2017 19:22:00 -0400</pubDate>
-      
-      <guid>http://tep.mit.edu/rush/feb6/chili_duck/</guid>
-      <description>&lt;p&gt;Come on over for a Thai dinner. If it gets too spicy for you, we have indoor water and running toilets.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Powerpoint Roulette</title>
-      <link>http://tep.mit.edu/rush/feb6/powerpoint_roulette/</link>
-      <pubDate>Mon, 06 Feb 2017 17:22:00 -0400</pubDate>
-      
-      <guid>http://tep.mit.edu/rush/feb6/powerpoint_roulette/</guid>
-      <description>&lt;p&gt;Deliver a PowerPoint presentation without any idea what&amp;rsquo;s coming on the next slide! Good practice for real life. Once your presentation is over, help us craft the next slide deck.&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep09/2017-09-09t112200-0400_espr/</guid>
+      <description>How many sips does it take to get through all of the coffee shops in Boston? The world may never know.</description>
     </item>
     
     <item>
       <title>Food Orgy</title>
-      <link>http://tep.mit.edu/rush/feb5/fud_orgy/</link>
-      <pubDate>Sun, 05 Feb 2017 19:22:00 -0400</pubDate>
+      <link>http://tep.mit.edu/rush/sep08/2017-09-08t192200-0400_food/</link>
+      <pubDate>Fri, 08 Sep 2017 19:22:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb5/fud_orgy/</guid>
-      <description>&lt;p&gt;Our biggest feast yet. The only rule: you can&amp;rsquo;t feed yourself. Grab a friend and head over to tEp!&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep08/2017-09-08t192200-0400_food/</guid>
+      <description>We have more food than we know what to do with and have to eat it all. One rule: you&amp;rsquo;re not allowed to feed yourself. There are few better ways to meet people than this special networking event.</description>
     </item>
     
     <item>
-      <title>Inappropriate Drilling</title>
-      <link>http://tep.mit.edu/rush/feb5/inappropriate_drilling/</link>
-      <pubDate>Sun, 05 Feb 2017 18:22:00 -0400</pubDate>
+      <title>Ineffective Field Theory</title>
+      <link>http://tep.mit.edu/rush/sep08/2017-09-08t182200-0400_inef/</link>
+      <pubDate>Fri, 08 Sep 2017 18:22:00 -0400</pubDate>
       
-      <guid>http://tep.mit.edu/rush/feb5/inappropriate_drilling/</guid>
-      <description>&lt;p&gt;What happens when you twirl al dente spaghetti at 3000 rpm? It&amp;rsquo;s like Deepwater Horizon all over again.&lt;/p&gt;
-</description>
+      <guid>http://tep.mit.edu/rush/sep08/2017-09-08t182200-0400_inef/</guid>
+      <description>Many features of nature can be described in terms of fields. Come learn about electromagnetic fields, corn fields, and our noble president Gabe Fields.</description>
+    </item>
+    
+    <item>
+      <title>Algorithmic Electronic music</title>
+      <link>http://tep.mit.edu/rush/sep07/2017-09-07t212200-0400_algo/</link>
+      <pubDate>Thu, 07 Sep 2017 21:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep07/2017-09-07t212200-0400_algo/</guid>
+      <description>Like listening to bleep bloops? Let&amp;rsquo;s generate some! They only have to be pleasant if you want them to. After this session you are guaranteed to become a world-famous techno DJ.</description>
+    </item>
+    
+    <item>
+      <title>Break our Doorbell</title>
+      <link>http://tep.mit.edu/rush/sep07/2017-09-07t172200-0400_brea/</link>
+      <pubDate>Thu, 07 Sep 2017 17:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep07/2017-09-07t172200-0400_brea/</guid>
+      <description>The tEp doorbell can play sounds between 10 and 60 Hz. Come program it for yourself, or just find tEp’s resonant frequency.</description>
+    </item>
+    
+    <item>
+      <title>Duct Tape Bondage</title>
+      <link>http://tep.mit.edu/rush/sep07/2017-09-07t062200-0400_duct/</link>
+      <pubDate>Thu, 07 Sep 2017 06:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep07/2017-09-07t062200-0400_duct/</guid>
+      <description>If it moves and it shouldn&amp;rsquo;t, add more duct tape. Come duct tape us to the wall.</description>
+    </item>
+    
+    <item>
+      <title>Dr. Seuss Cocoa</title>
+      <link>http://tep.mit.edu/rush/sep06/2017-09-06t222200-0400_dr.-/</link>
+      <pubDate>Wed, 06 Sep 2017 22:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep06/2017-09-06t222200-0400_dr.-/</guid>
+      <description>One cocoa, two cocoa, red cocoa, blue cocoa! On the first day of classes of every week, tEp has a hot cocoa study break with lots of cheese and other snacks. While a cocoa&amp;rsquo;s a cocoa no matter how small, this one is particularly special. Ft. Dr. Seuss read far too dramatically</description>
+    </item>
+    
+    <item>
+      <title>Seminar on Charcuterie and Physics</title>
+      <link>http://tep.mit.edu/rush/sep06/2017-09-06t202200-0400_semi/</link>
+      <pubDate>Wed, 06 Sep 2017 20:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep06/2017-09-06t202200-0400_semi/</guid>
+      <description>Have you ever heard of a magnon-polariton? How about sopressata? One of these is a magnetic wave and the other is an Italian cured meat. You&amp;rsquo;ll never guess which is which.</description>
+    </item>
+    
+    <item>
+      <title>Flashmob on the T</title>
+      <link>http://tep.mit.edu/rush/sep06/2017-09-06t162200-0400_flas/</link>
+      <pubDate>Wed, 06 Sep 2017 16:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep06/2017-09-06t162200-0400_flas/</guid>
+      <description>Phase 1: Pick a thing to do in public. Phase 2: Do that thing in public, pray for attention.</description>
+    </item>
+    
+    <item>
+      <title>Spice Cream</title>
+      <link>http://tep.mit.edu/rush/sep05/2017-09-05t202200-0400_spic/</link>
+      <pubDate>Tue, 05 Sep 2017 20:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep05/2017-09-05t202200-0400_spic/</guid>
+      <description>Have you ever had rosemary flavored ice cream? How about lemongrass? Garlic? Siracha? Join our flavor extracting experts in a quest to invent Ben and Jerry&amp;rsquo;s next famous flavor.</description>
+    </item>
+    
+    <item>
+      <title>Picnic in the Pavillion</title>
+      <link>http://tep.mit.edu/rush/sep05/2017-09-05t182200-0400_picn/</link>
+      <pubDate>Tue, 05 Sep 2017 18:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep05/2017-09-05t182200-0400_picn/</guid>
+      <description>Join us for a picnic in the Pavilion!</description>
+    </item>
+    
+    <item>
+      <title>Lie-off</title>
+      <link>http://tep.mit.edu/rush/sep05/2017-09-05t152200-0400_lie-/</link>
+      <pubDate>Tue, 05 Sep 2017 15:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep05/2017-09-05t152200-0400_lie-/</guid>
+      <description>Why settle for a half-truth, when no truth will do just fine? Get the finest bullshit from an accredited institution! MIT’s expert orators will entice your ears and defy your senses! Don’t miss the 22nd annual bullshitters’ Olympics!</description>
+    </item>
+    
+    <item>
+      <title>tEp Talks</title>
+      <link>http://tep.mit.edu/rush/sep05/2017-09-05t142200-0400_tep-/</link>
+      <pubDate>Tue, 05 Sep 2017 14:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep05/2017-09-05t142200-0400_tep-/</guid>
+      <description>Us tEps have honed our skills and knowledge like the edge of a very sharp knife. Come eat donuts and listen to (occasionally) interesting lectures from the self-important weirdos of tEp!</description>
+    </item>
+    
+    <item>
+      <title>Impromptu Amateur Jam Sess</title>
+      <link>http://tep.mit.edu/rush/sep04/2017-09-04t222200-0400_impr/</link>
+      <pubDate>Mon, 04 Sep 2017 22:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep04/2017-09-04t222200-0400_impr/</guid>
+      <description>We have a lot of instruments and you are all amazing musicans. Let&amp;rsquo;s make the next Top 40 song.</description>
+    </item>
+    
+    <item>
+      <title>Cannoli Hunting</title>
+      <link>http://tep.mit.edu/rush/sep04/2017-09-04t202200-0400_cann/</link>
+      <pubDate>Mon, 04 Sep 2017 20:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep04/2017-09-04t202200-0400_cann/</guid>
+      <description>Join us on a trip to the North end to hunt one of Boston&amp;rsquo;s most elusive dessert species: the cannolo. Don&amp;rsquo;t forget to leave one at Paul Revere&amp;rsquo;s grave.</description>
+    </item>
+    
+    <item>
+      <title>Milk Crate Construction</title>
+      <link>http://tep.mit.edu/rush/sep04/2017-09-04t122200-0400_milk/</link>
+      <pubDate>Mon, 04 Sep 2017 12:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep04/2017-09-04t122200-0400_milk/</guid>
+      <description>How many milk crates can we stack in the center stairwell before they fall over? Hard hats provided.</description>
+    </item>
+    
+    <item>
+      <title>Waffle Architecture</title>
+      <link>http://tep.mit.edu/rush/sep04/2017-09-04t112200-0400_waff/</link>
+      <pubDate>Mon, 04 Sep 2017 11:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep04/2017-09-04t112200-0400_waff/</guid>
+      <description>Once upon a time, someone told you not to play with your food. Come build your masterpiece out of waffles, fresh fruit, and marshmallow fluff (and eat it too).</description>
+    </item>
+    
+    <item>
+      <title>Lost in Boston</title>
+      <link>http://tep.mit.edu/rush/sep03/2017-09-03t202200-0400_lost/</link>
+      <pubDate>Sun, 03 Sep 2017 20:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep03/2017-09-03t202200-0400_lost/</guid>
+      <description>Boston has famously confusing intersections and pockets of weird organization within the entropy. Come explore the topology of this strange city and maybe grab dessert.</description>
+    </item>
+    
+    <item>
+      <title>Italian Feast</title>
+      <link>http://tep.mit.edu/rush/sep03/2017-09-03t182200-0400_ital/</link>
+      <pubDate>Sun, 03 Sep 2017 18:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep03/2017-09-03t182200-0400_ital/</guid>
+      <description>The finest Italian dinner and desserts tEp has to offer at this specific time.</description>
+    </item>
+    
+    <item>
+      <title>Derpy Robot Fighting</title>
+      <link>http://tep.mit.edu/rush/sep03/2017-09-03t172200-0400_derp/</link>
+      <pubDate>Sun, 03 Sep 2017 17:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep03/2017-09-03t172200-0400_derp/</guid>
+      <description>Watch said derpy robots battle to the death. Some of them might even move.</description>
+    </item>
+    
+    <item>
+      <title>leached T-Shirts</title>
+      <link>http://tep.mit.edu/rush/sep03/2017-09-03t152200-0400_leac/</link>
+      <pubDate>Sun, 03 Sep 2017 15:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep03/2017-09-03t152200-0400_leac/</guid>
+      <description>Like tie-dye, but with more oxidation! Materials provided, designers wanted.</description>
+    </item>
+    
+    <item>
+      <title>Derpy Robot Building</title>
+      <link>http://tep.mit.edu/rush/sep03/2017-09-03t142200-0400_derp/</link>
+      <pubDate>Sun, 03 Sep 2017 14:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep03/2017-09-03t142200-0400_derp/</guid>
+      <description>Have you wanted to build a robot, but worried that you wouldn&amp;rsquo;t know how? Have you wanted to make a robot out of Barbie limbs and HotWheels? Come try it out in our annual robot competition!</description>
+    </item>
+    
+    <item>
+      <title>Brunch</title>
+      <link>http://tep.mit.edu/rush/sep03/2017-09-03t112200-0400_brun/</link>
+      <pubDate>Sun, 03 Sep 2017 11:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep03/2017-09-03t112200-0400_brun/</guid>
+      <description>tEp has brunch every Sunday morning. Come join us for what is objectively the best meal.</description>
+    </item>
+    
+    <item>
+      <title>OOBLECK!!</title>
+      <link>http://tep.mit.edu/rush/sep02/2017-09-02t202200-0400_oobl/</link>
+      <pubDate>Sat, 02 Sep 2017 20:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep02/2017-09-02t202200-0400_oobl/</guid>
+      <description>Experience over 1000 pounds of non-newtonian fun. What could go wrong?</description>
+    </item>
+    
+    <item>
+      <title>Dessert</title>
+      <link>http://tep.mit.edu/rush/sep02/2017-09-02t192200-0400_dess/</link>
+      <pubDate>Sat, 02 Sep 2017 19:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep02/2017-09-02t192200-0400_dess/</guid>
+      <description>Come sample delicacies from the five major food groups: cupcakes, regular cakes, eclairs, bon-bons, and souffles.</description>
+    </item>
+    
+    <item>
+      <title>Henna</title>
+      <link>http://tep.mit.edu/rush/sep02/2017-09-02t132200-0400_henn/</link>
+      <pubDate>Sat, 02 Sep 2017 13:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep02/2017-09-02t132200-0400_henn/</guid>
+      <description>Cover yourself from foot to toe in mesmerising fractal patterns. Extra feet and toes will be provided.</description>
+    </item>
+    
+    <item>
+      <title>Dumplings</title>
+      <link>http://tep.mit.edu/rush/sep02/2017-09-02t122200-0400_dump/</link>
+      <pubDate>Sat, 02 Sep 2017 12:22:00 -0400</pubDate>
+      
+      <guid>http://tep.mit.edu/rush/sep02/2017-09-02t122200-0400_dump/</guid>
+      <description>Best dumplings EVER (vegan-friendly option provided).</description>
     </item>
     
   </channel>

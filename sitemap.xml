@@ -1,119 +1,200 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb11/alumni_dinner/</loc>
-    <lastmod>2017-02-11T18:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep13/2017-09-13t192200-0400_/</loc>
+    <lastmod>2017-09-13T19:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb10/hemiformal_party/</loc>
-    <lastmod>2017-02-10T22:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep13/2017-09-13t175200-0400_s-fu/</loc>
+    <lastmod>2017-09-13T17:52:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb9/movie_night/</loc>
-    <lastmod>2017-02-09T21:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep12/2017-09-12t192200-0400_/</loc>
+    <lastmod>2017-09-12T19:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb9/godel_escher_wok_eat/</loc>
-    <lastmod>2017-02-09T19:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep12/2017-09-12t175200-0400_s-fu/</loc>
+    <lastmod>2017-09-12T17:52:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb9/godel_escher_wok_cook/</loc>
-    <lastmod>2017-02-09T17:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep11/2017-09-11t222200-0400_/</loc>
+    <lastmod>2017-09-11T22:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb8/iron_tep_eating/</loc>
-    <lastmod>2017-02-08T19:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep11/2017-09-11t192200-0400_/</loc>
+    <lastmod>2017-09-11T19:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb8/iron_tep_cooking/</loc>
-    <lastmod>2017-02-08T17:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep11/2017-09-11t175200-0400_s-fu/</loc>
+    <lastmod>2017-09-11T17:52:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb7/cocoa/</loc>
-    <lastmod>2017-02-07T22:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep10/2017-09-10t202200-0400_the-/</loc>
+    <lastmod>2017-09-10T20:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb7/dramatic_dr_seuss/</loc>
-    <lastmod>2017-02-07T20:44:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep10/2017-09-10t192200-0400_iron/</loc>
+    <lastmod>2017-09-10T19:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb7/haus_fud/</loc>
-    <lastmod>2017-02-07T19:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep10/2017-09-10t172200-0400_iron/</loc>
+    <lastmod>2017-09-10T17:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb7/cook_haus_fud/</loc>
-    <lastmod>2017-02-07T17:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep10/2017-09-10t112200-0400_brun/</loc>
+    <lastmod>2017-09-10T11:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb6/chili_duck/</loc>
-    <lastmod>2017-02-06T19:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep09/2017-09-09t162200-0400_scie/</loc>
+    <lastmod>2017-09-09T16:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb6/powerpoint_roulette/</loc>
-    <lastmod>2017-02-06T17:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep09/2017-09-09t112200-0400_espr/</loc>
+    <lastmod>2017-09-09T11:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb5/fud_orgy/</loc>
-    <lastmod>2017-02-05T19:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep08/2017-09-08t192200-0400_food/</loc>
+    <lastmod>2017-09-08T19:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb5/inappropriate_drilling/</loc>
-    <lastmod>2017-02-05T18:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep08/2017-09-08t182200-0400_inef/</loc>
+    <lastmod>2017-09-08T18:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb5/milk_crate_construction/</loc>
-    <lastmod>2017-02-05T17:44:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep07/2017-09-07t212200-0400_algo/</loc>
+    <lastmod>2017-09-07T21:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb5/cardboard_box_forts/</loc>
-    <lastmod>2017-02-05T17:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep07/2017-09-07t172200-0400_brea/</loc>
+    <lastmod>2017-09-07T17:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb5/playing_with_ropes/</loc>
-    <lastmod>2017-02-05T16:44:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep07/2017-09-07t062200-0400_duct/</loc>
+    <lastmod>2017-09-07T06:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb4/dumpling_dinner/</loc>
-    <lastmod>2017-02-04T19:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep06/2017-09-06t222200-0400_dr.-/</loc>
+    <lastmod>2017-09-06T22:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb4/hebocon/</loc>
-    <lastmod>2017-02-04T17:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep06/2017-09-06t202200-0400_semi/</loc>
+    <lastmod>2017-09-06T20:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb4/robot_building/</loc>
-    <lastmod>2017-02-04T15:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep06/2017-09-06t162200-0400_flas/</loc>
+    <lastmod>2017-09-06T16:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb3/post_iap_squids/</loc>
-    <lastmod>2017-02-03T21:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep05/2017-09-05t202200-0400_spic/</loc>
+    <lastmod>2017-09-05T20:22:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tep.mit.edu/rush/feb3/italian_feast/</loc>
-    <lastmod>2017-02-03T19:22:00-04:00</lastmod>
+    <loc>http://tep.mit.edu/rush/sep05/2017-09-05t182200-0400_picn/</loc>
+    <lastmod>2017-09-05T18:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep05/2017-09-05t152200-0400_lie-/</loc>
+    <lastmod>2017-09-05T15:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep05/2017-09-05t142200-0400_tep-/</loc>
+    <lastmod>2017-09-05T14:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep04/2017-09-04t222200-0400_impr/</loc>
+    <lastmod>2017-09-04T22:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep04/2017-09-04t202200-0400_cann/</loc>
+    <lastmod>2017-09-04T20:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep04/2017-09-04t122200-0400_milk/</loc>
+    <lastmod>2017-09-04T12:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep04/2017-09-04t112200-0400_waff/</loc>
+    <lastmod>2017-09-04T11:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep03/2017-09-03t202200-0400_lost/</loc>
+    <lastmod>2017-09-03T20:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep03/2017-09-03t182200-0400_ital/</loc>
+    <lastmod>2017-09-03T18:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep03/2017-09-03t172200-0400_derp/</loc>
+    <lastmod>2017-09-03T17:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep03/2017-09-03t152200-0400_leac/</loc>
+    <lastmod>2017-09-03T15:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep03/2017-09-03t142200-0400_derp/</loc>
+    <lastmod>2017-09-03T14:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep03/2017-09-03t112200-0400_brun/</loc>
+    <lastmod>2017-09-03T11:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep02/2017-09-02t202200-0400_oobl/</loc>
+    <lastmod>2017-09-02T20:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep02/2017-09-02t192200-0400_dess/</loc>
+    <lastmod>2017-09-02T19:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep02/2017-09-02t132200-0400_henn/</loc>
+    <lastmod>2017-09-02T13:22:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/rush/sep02/2017-09-02t122200-0400_dump/</loc>
+    <lastmod>2017-09-02T12:22:00-04:00</lastmod>
   </url>
   
   <url>
@@ -131,12 +212,22 @@
   </url>
   
   <url>
+    <loc>http://tep.mit.edu/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://tep.mit.edu/contact/</loc>
   </url>
   
   <url>
     <loc>http://tep.mit.edu/rush/</loc>
-    <lastmod>2017-02-11T18:22:00-04:00</lastmod>
+    <lastmod>2017-09-13T19:22:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tep.mit.edu/tags/</loc>
     <priority>0</priority>
   </url>
   
@@ -152,7 +243,7 @@
   
   <url>
     <loc>http://tep.mit.edu/</loc>
-    <lastmod>2017-02-11T18:22:00-04:00</lastmod>
+    <lastmod>2017-09-13T19:22:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
