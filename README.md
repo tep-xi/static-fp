@@ -36,7 +36,7 @@ on the host [(see here for more info)](https://github.com/wsargent/docker-cheat-
 
 ## System Requirements
 
-- [Hugo](https://gohugo.io/overview/installing/) (`v.18.1` at this time of writing)
+- [Hugo](https://gohugo.io/overview/installing/) (`v.25.1` at this time of writing)
 
 - [npm](https://www.npmjs.com/get-npm)
 
