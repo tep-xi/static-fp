@@ -21,7 +21,7 @@ ENV BASE_URL=""
 
 RUN apk add --update wget ca-certificates && \
   cd /tmp/ && \
-  wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
+  wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
   tar -xvzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
   rm -r hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
   mv hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 /usr/bin/hugo && \ 
