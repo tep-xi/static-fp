@@ -4,7 +4,7 @@
 {{ if eq $dateMissing false }}
 
     <span class="key">
-        {{ if ge .Date.Unix .Now.Unix }}
+        {{ if ge .Date.Unix now.Unix }}
           starts
         {{ else }}
           started
@@ -33,7 +33,7 @@
   </div>
 
   <h1 class="headline" itemprop="headline">
-  {{ if ge .Date.Unix .Now.Unix  }} 
+  {{ if ge .Date.Unix now.Unix  }} 
     [rush] 
   {{ else }}
     [rush - OLD]
