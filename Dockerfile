@@ -24,7 +24,7 @@ RUN apk add --update wget ca-certificates && \
   wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
   tar -xvzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
   rm -r hugo_${HUGO_VERSION}_Linux-64bit.tar.gz && \
-  mv hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 /usr/bin/hugo && \ 
+  mv hugo /usr/bin/hugo && \ 
   apk del wget ca-certificates && \
   rm /var/cache/apk/*
 
