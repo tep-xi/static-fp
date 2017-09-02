@@ -3,6 +3,8 @@ import csv
 import subprocess
 import datetime
 
+YEAR = 2017
+
 class FixedOffset(datetime.tzinfo):
     """Fixed offset in minutes east from UTC."""
 
@@ -23,14 +25,14 @@ EDT = FixedOffset(-240, "EDT")
 
 def parse_date(line):
     date = datetime.datetime.strptime(line[0], "%m/%d")
-    return datetime.datetime(2016, date.month, date.day)
+    return datetime.datetime(YEAR, date.month, date.day)
 
 def make_file(cur_date, line):
-    time = datetime.datetime.strptime(line[0][0:7], "%I:%M%p")
+    time = datetime.datetime.strptime(line[6][0:7], "%I:%M%p")
     time = time.replace(tzinfo=EDT)
     event_datetime = datetime.datetime.combine(cur_date.date(), time.timetz())
-    event_title = line[1]
-    event_desc = line[4]
+    event_title = line[1][8:] # Strip out "(Co-ed) "
+    event_desc = line[3]
     iso_date = event_datetime.isoformat()
     file_string = """\
 +++
@@ -48,7 +50,7 @@ title="{title}"
     output = open("../content/rush/"+file_name, 'w')
     output.write(file_string)
 
-with open("Rush_Schedule.csv", newline='') as schedule_csv:
+with open("Rush_Schedule_"+str(YEAR)+".csv", newline='') as schedule_csv:
     schedule_reader = csv.reader(schedule_csv)
     current_date = None
     linect = 0
