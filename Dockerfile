@@ -12,8 +12,8 @@ RUN apk --update add git && \
 
 # setup hugo 
 
-## this version of the site has been built with hugo 0.18.1
-ENV HUGO_VERSION=0.18.1
+## this version of the site has been built with hugo 0.25.1
+ENV HUGO_VERSION=0.25.1
 
 ## override this environment variable (BASE_URL="http://tep.mit.edu") 
 ## in order to properly deploy it to tep.mit.edu, etc. 
