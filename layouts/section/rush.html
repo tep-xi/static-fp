@@ -9,10 +9,12 @@
   {{ range .Data.Pages.GroupByDate "Monday, January 2" "asc"}}
     {{ $.Scratch.Set "displayDate" false }} 
     {{ range .Pages }}
-      {{ if not (ge .Date.Unix now.Unix)}}
-        <!--display the date if no current events-->
+      {{ if (ge .Date.Unix now.Unix)}}
+        <!--don't display the date if there are no current events-->
         {{ $.Scratch.Set "displayDate" true }}
-        <!--rendering expired events-->
+        <!--only render the old section if there are expired events-->
+      {{ end }}
+      {{ if (not (ge .Date.Unix now.Unix)}}}
         {{ $.Scratch.Set "displayOld" true }}
       {{ end }}
     {{ end }}
