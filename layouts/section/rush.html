@@ -14,7 +14,7 @@
         {{ $.Scratch.Set "displayDate" true }}
         <!--only render the old section if there are expired events-->
       {{ end }}
-      {{ if (not (ge .Date.Unix now.Unix)}}}
+      {{ if (not (ge .Date.Unix now.Unix))}}
         {{ $.Scratch.Set "displayOld" true }}
       {{ end }}
     {{ end }}
