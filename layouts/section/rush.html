@@ -10,10 +10,10 @@
     {{ $.Scratch.Set "displayDate" true }} 
     {{ range .Pages }}
       {{ if not (ge .Date.Unix now.Unix)}}
-        <!--don't display the date if there are no current events-->
-        {{ $.Scratch.Set "displayDate" false }} 
-        <!--only render the old section if there are expired events-->
-        {{ $.Scratch.Set "displayOld" true }}
+        <!--always display the date even if there are no current events-->
+        <!--{{ $.Scratch.Set "displayDate" false }}-->
+        <!--not rendering expired events-->
+        <!--{{ $.Scratch.Set "displayOld" true }}-->
       {{ end }}
     {{ end }}
     {{ if $.Scratch.Get "displayDate" }}
