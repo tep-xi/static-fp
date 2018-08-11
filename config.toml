@@ -2,6 +2,7 @@ baseurl = "http://tep.mit.edu"
 languageCode = "en-us"
 title = "tEp"
 theme = "base16"
+# buildFuture = true # uncomment on first day of rush to show events
 pluralizelisttitles = false
 
 # home page
